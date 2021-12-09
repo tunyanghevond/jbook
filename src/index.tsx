@@ -29,7 +29,7 @@ const App = () => {
       write: false,
       plugins: [unpkgPathPlugin()],
     });
-    console.log(result);
+
     setCode(result.code);
   };
   return (
